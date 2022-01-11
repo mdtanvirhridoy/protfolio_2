@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-color: rgba(169, 169, 169, 0.349); */
+     background-image: url(photo/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* one page */
+.one{
+    display: flex;
+    padding: 2rem;
+    /* background-color: rgba(169, 169, 169, 0.349); */
+    padding-bottom: 2rem;
+}
+.tow a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.tow{
+    padding-right: 9rem;
+}
+.tow h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.tow span{
+    color: rgb(255, 140, 0);
+}
+.tow h5{
+    margin-bottom: 12px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+.tow button{
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius:5px ;
+    background-color: rgba(255, 140, 0, 0.842);
+    border: 0px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.tow button:hover{
+    background-color:rgba(185, 185, 185, 0.87);
+}
+.three{
+    margin-right: 5rem;
+}
+.three img{
+    height: 22rem;
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 20rem;
+    border: 3px solid darkorange;
+}
+/* one page end */
+
+/* tow page */
+.one-one{
+    display: flex;
+    padding: 2rem;
+    /* background-color: rgba(169, 169, 169, 0.349); */
+    padding-bottom: 2rem;
+}
+.tow-tow img{
+    height: 22rem;
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 20rem;
+    border: 3px solid darkorange;
+}
+.three-three{
+    margin-top: 2rem;
+    padding-left: 10rem;
+    margin-right: 5px;
+}
+.three-three a{
+    text-decoration: none;
+    color: rgba(10, 10, 10, 0.856);
+}
+
+.three-three button:hover{
+    background-color:rgba(185, 185, 185, 0.87);
+}
+.three-three button{
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:5px ;
+    background-color: rgba(255, 140, 0, 0.842);
+    border: 0px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.three-three h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+/* tow page end */
+
+/* three page */
+.l-o{
+    margin-top: 30px;
+}
+.l-t{
+    display: flex;
+    
+
+}
+.l-tr{
+    height: 15rem;
+    width: 80rem;
+    border-left: 5px solid rgba(0, 0, 255, 0.795);
+    box-shadow: 10px 10px #000000b2;
+    margin: 50px;
+    margin-top: 30px;
+    margin-right: 5rem;
+    background-color: rgba(169, 169, 169, 0.349);
+
+}
+.l-tr p{
+    font-size: small;
+    padding: 20px;
+}
+.l-tr h1{
+    font-size: 30px;
+padding: 20px;
+}
+.l-tr h5{
+    padding-left: 20px;
+}
+/* box 2 */
+.l-f{
+    height: 15rem;
+    width: 80rem;
+    border-left: 5px solid rgba(255, 0, 0, 0.753);
+    box-shadow: 10px 10px #000000b2;
+    margin: 50px;
+    margin-top: 30px;
+    margin-left: 5rem;
+    background-color: rgba(169, 169, 169, 0.349);
+}
+.l-f p{
+    font-size: small;
+    padding: 20px;
+}
+.l-f h1{
+    font-size: 30px;
+padding: 20px;
+}
+.l-f h5{
+    padding-left: 20px;
+}
+/* three page end */
+
+/* footer page */
+.foo{
+    text-align: center;
+    font-size: 10px;
+}
+.ffo{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.ffo a{
+    color: black;
+    padding: 5px;
+}
+.ffo i:hover{
+    background-color: cornflowerblue;
+    width: 25px;
+}
